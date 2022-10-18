@@ -613,12 +613,14 @@ $companyName = 'netsales';
             <p class="right"><strong>Přeji vám jen to nejlepší,<br>Aneta Brejšková</strong></p>
             <p class="spellcheck"><?php echo $MINI_DISCLAMER; ?></p>
          </div>
-         <div class="half-box">
-            <h4 class="blue text-center">Udělej<br>pro sebe<br>tu nejlepší<br>věc<br>a ukaž<br>bez studu<br>své<br>dokonalé<br>nohy!</h4>
+         <div id="shameless-legs">
+            <div class="half-box">
+               <h4 class="blue text-center">Udělej<br>pro sebe<br>tu nejlepší<br>věc<br>a ukaž<br>bez studu<br>své<br>dokonalé<br>nohy!</h4>
+            </div>
+            <div class="half-box">
+               <img src="image.php?comnt=img_37.jpg">
+            </div>
          </div>
-         <div class="half-box">
-            <img src="image.php?comnt=img_37.jpg">
-</div>
          <div class="clear"></div>
          <div class="gray-box geobox">
             <h6 class="small underline">Mirek Novák</h6>

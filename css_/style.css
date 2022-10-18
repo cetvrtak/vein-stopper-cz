@@ -5139,6 +5139,12 @@ hr {
     .contact-form-box {
         max-width: 330px;
     }
+    .input_wrapper, .input_wrapper_komentar {
+        width: 95%;
+    }
+    .contactButton {
+        margin: 0;
+    }
     .hollywood_star_wrapper {
         background-image: url("../image.php?comnt=img_01.jpg");
         background-position: center bottom;
@@ -5147,6 +5153,33 @@ hr {
         width: 100%;
         font-size: 20px;
         padding: 20px 0 200px;
+    }
+}
+
+@media (max-width:900px) {
+    .banner_contact_wrapper {
+        display: flex;
+        align-items: flex-start;
+    }
+    #header_form {
+        float: none;
+        width: 100%;
+        max-width: none;
+        margin: 0;
+    }
+    #header_form h1 {
+        width: 100%;
+    }
+    .contact-form-box {
+        box-sizing: border-box;
+        margin: 0;
+    }
+    .sigurno {
+        margin-right: 0;
+        width: 100%;
+    }
+    a.cta-link {
+        width: 100%;
     }
 }
 
@@ -5177,14 +5210,47 @@ hr {
     }
     #header_form h1 {
         font-size: 52px;
+
+        margin: 0;
+        padding: 0;
+        border: 0;
     }
     .banner_contact_wrapper {
-        background-position: center 130px;
+        background-position: center 65px;
         background-size: 400px auto;
+
+        flex-direction: column;
     }
     .contact-form-box {
-        float: none;
-        margin: 200px auto 0;
+        margin: 0;
+        max-width: none;
+        width: 100%;
+    }
+    .contact-form-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #forma1 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 0.8rem;
+    }
+    .input_wrapper, .input_wrapper_komentar {
+        margin: 0;
+        text-align: initial;
+        width: 100%;
+
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 1rem;
+    }
+    .sigurno {
+        padding-left: 0;
+        width: 358px;
     }
     .large-button {
         width: 460px;
@@ -5195,6 +5261,9 @@ hr {
         top: 22%;
         font-size: 22px;
         line-height: 38px;
+    }
+    img.full {
+        width: 100%;
     }
 }
 
@@ -5218,7 +5287,7 @@ hr {
         font-size: 48px;
     }
     .banner_contact_wrapper {
-        background-position: center 120px;
+        background-position: center 60px;
         background-size: 320px auto;
     }
     br.br-show {
@@ -5277,6 +5346,9 @@ hr {
         width: 98%;
         margin: 1% auto;
     }
+    .sigurno {
+        margin: 20px 0 0;
+    }
 }
 
 @media (max-width:399px) {
@@ -5285,16 +5357,17 @@ hr {
         padding: 4px 0 6px;
     }
     .input_wrapper {
-        width: 260px;
-        margin: 3px auto
+        margin: 0;
     }
     .input_wrapper label {
         display: block;
         text-align: left;
         padding: 0 0 0 6px;
     }
-    .input_wrapper select {
+    .input_wrapper select,
+    #komentar {
         width: 260px;
+        box-sizing: border-box;
     }
     .input_wrapper input,
     .input_wrapper textarea {
@@ -5313,6 +5386,16 @@ hr {
     }
     .quiz-form .quiz-button {
         width: 260px;
+    }
+}
+
+@media (max-width:360px) {
+    #header_form h1 {
+        width: 100%;
+        border: 0;
+        margin: 0;
+        padding: 3px;
+        box-sizing: border-box;
     }
 }
 

@@ -1,6 +1,6 @@
 <?php
 $rapid = 'on';
-include '/var/www/sites/footer/sales/header_helsinki.php'; 
+include '/var/www/sites/footer/sales/header_helsinki.php';
 $companyName = 'netsales';
 ?>
 
@@ -31,9 +31,10 @@ $companyName = 'netsales';
 
             <!-- ORDER FORM -->
                <?php
-                $ORDER_TITLE = 'Získej krém se slevou 50%';
-                $ORDER_BUTTON = "Objednej si krém se slevou";
-                include_once('/var/www/sites/footer/form/form_01.php');?>
+               $ORDER_TITLE = 'Získej krém se slevou 50%';
+               $ORDER_BUTTON = 'Objednej si krém se slevou';
+               include_once '/var/www/sites/footer/form/form_01.php';
+               ?>
             <!-- ORDER FORM -->
 
 
@@ -53,7 +54,7 @@ $companyName = 'netsales';
             <p>Za 2 měsíce se Renata zbavila křečových žil</p>
             <img src="image.php?comnt=testimonial_01.jpg" width="250"><p>„Potřebovala jsem všehovšudy dva a půl měsíce, aby moje křečové žíly zmizely! Kdybych to nezažila na vlastní kůži, nevěřila bych, že je to možné. Kdyby mě sestra nepřesvědčila, abych vyzkoušela Vein Stopper, určitě bych jej odsoudila jako nějaký další podvod.“*</p>
             <h4>Renata, Liberec</h4>
-            <p class="spellcheck"><?php echo $MINI_DISCLAMER;?></p>
+            <p class="spellcheck"><?php echo $MINI_DISCLAMER; ?></p>
             <div class="clear"></div>
          </div>
          <h1 class="text-center">Dokonce i Daniela se díky své vytrvalosti a přírodním látkám zbavila modré záplavy ze svých nohou</h1>
@@ -62,7 +63,7 @@ $companyName = 'netsales';
             <p>Daniela se zbavila křečových žil za 6 týdnů</p>
             <img src="image.php?comnt=testimonial_02.jpg"><p>„Před odjezdem na dovolenou se mi podařilo zbavit křečových žil. Pravidelně jsem používala krém, držela se rad jako například cvičení, stravy, spaní s nohama nahoře a poprvé v životě jsem si pak hrdě oblékla bikiny. A ještě aby ne, když teď moje nohy vypadají dokonale!“*</p>
             <h4>Daniela, Nižbor</h4>
-            <p class="spellcheck"><?php echo $MINI_DISCLAMER;?></p>
+            <p class="spellcheck"><?php echo $MINI_DISCLAMER; ?></p>
             <div class="clear"></div>
          </div>
          <h4 class="text-center">V tomto okamžiku tisíce žen po celém světě s touto metodou odstraňují křečové žíly...</h4>
@@ -141,7 +142,9 @@ $companyName = 'netsales';
          </div>
          <p>Tady je jedno špinavé tajemství farmaceutického průmyslu, které ti nechce prozradit. Moc dobře vědí, že s jejich krémy, gely, tabletkami a oleji se ti křečové žíly nepodaří odstranit. Stejně jako si nikdo nepřeje vytvořit auto, které vydrží jezdit celý váš život. Stejně tak jako jsou kuchyňské spotřebiče vytvořeny tak, aby se rozbily hned jak jim vyprší záruční lhůta... Stejně tak i chirurgové a kosmetičtí odborníci nebo výrobce každého z těchto produktů nechtějí, aby se ti podařilo  křečových žil se zbavit. Protože vědí, že pokud se ti podaří zbavit té modré záplavy a křečových žil a ty se na tvé nohy již nikdy více nevrátí, přijdou o naději, že se ještě jednou někdy vrátíš a opět si něco koupíš. To pro ně znamená ztrátu milionů dolarů ročně.</p>
          <p>Většině výrobců preparátů na křečové žíly se nebude líbit, až pravda vyjde na světlo. Jsou si vědomi toho, že ztratí miliony dolarů hned, jak lidé zjistí, že mohou vymazat křečové žíly s tajemstvím, které již znají tisíce lidí z celého světa, a které stojí kolem <strong>
-        <?php echo intval($price_01 / 30) ?> <?= $VALUTA_ ?></strong> denně.</p>
+        <?php echo intval(
+          $price_01 / 30
+        ); ?> <?= $VALUTA_ ?></strong> denně.</p>
          <p>Tento stav je špatný - miliony žen jsou oběťmi podvodu už příliš dlouho a přišel čas, aby se tato situace změnila.</p>
          <div class="geobox">
             <h1 class="text-center blue medium">Když jim už nic jiného „nezbývalo“ podařilo se jim zbavit se křečových žil s krémem Vein Stopper!</h1>
@@ -161,7 +164,7 @@ $companyName = 'netsales';
                </div>
                <div class="clear"></div>
             </div>
-            <p class="spellcheck"><?php echo $MINI_DISCLAMER;?></p>
+            <p class="spellcheck"><?php echo $MINI_DISCLAMER; ?></p>
          </div>
          <h1 class="text-center green">Poděl se s námi o svůj příběh o úspěchu i ty a odměníme tě!</h1>
          <h2>Fakta o křečových žilách a životní cíl</h2>
@@ -193,7 +196,7 @@ $companyName = 'netsales';
             <p>„Moje zkušenost s krémem Vein Stopper je skvělá. Zažila jsem to, co mi bylo slíbeno: bolest zmizela, křečové žíly ustoupily a kůže na nohou je teď bezchybná.</p>
             <p>I když mi je 54 let, moc ráda chodím a žiju aktivně a bolestivé křečové žíly mi zabraňovaly chodit a hrát si s vnoučaty. Neustále jsem si stěžovala a chodíla s obtížemi. Kolegyně z práce se přede mnou zmínila o Vein Stopperu. Používám ho měsíc a moje nohy už vůbec nebolí, a žíly ustoupily... bez jakýchkoliv nežádoucích účinků! Cítím se jako bych omládla o několik let a jsem teď plná energie a síly!“*</p>
             <p><strong>- Helena, Domažlice</strong></p>
-            <p class="spellcheck"><?php echo $MINI_DISCLAMER;?></p>
+            <p class="spellcheck"><?php echo $MINI_DISCLAMER; ?></p>
          </div>
          <hr>
 <div class="geobox">
@@ -201,7 +204,7 @@ $companyName = 'netsales';
             <h6>„Bývalá fitness trenérka, která přestala trénovat a teď mluví o tom, jak se zbavila křečových žil, které ji roky trápily“</h6>
             <p>Toto jsou vážně skutečné fotografie. Ukazují Catherine Jones, bývalou trenérku fitness 7. září 2015 a pak o půl roku později 4. března 2016. Catherine se podařilo zbavit se křečových žil s pomocí krému Vein Stopper!</p>
             <p>Pokud máš problémy s žilami, pořádně si prohlédni tyto fotografie, protože ti ukazují, jak rychle můžeš VYHRÁT v tomto boji a dosáhnout tak hladké kůže bez viditelných žil. Catherine se s námi podělila o detaily své proměny v tomto rozhovoru...</p>
-            <p class="spellcheck"><?php echo $MINI_DISCLAMER;?></p>
+            <p class="spellcheck"><?php echo $MINI_DISCLAMER; ?></p>
             <hr>
 <p><strong>OTÁZKA: Paní Jonesová, když se na vás díváme dnes, je očividné, že jste prošla obrovskou proměnou - díky krému Vein Stopper. Dříve než o něm začneme mluvit, můžete nám říci něco víc o Vašem problému s křečovými žilami?</strong></p>
             <p><strong>Catherine</strong>: Celý život jsem cvičila a dělala fitness. Už tenkrát jsem měla vystouplé žíly, ale tolik mě nebolely a tak jsem netrpěla. Když jsem s fitness přestala a tím pádem jsem se ze dne na den přestala i hýbat, objevily se problémy. Přibrala jsem a během několika měsíců mi začaly křečové žíly způsobovat nesnesitelné problémy.</p>
@@ -256,7 +259,7 @@ $companyName = 'netsales';
          <div class="geobox">
             <h1 class="text-center large violet">„Zbavila jsem se křečových žil a získala dokonale krásné nohy!“</h1>
             <p class="green">Erika se zbavila křečových žil a změnila vzhled svých nohou s pomocí krému na bázi bylinných extraktů. Nyní můžeš i ty, stejně jako několik milionů lidí na světě, udělat první krok pro krásné nohy!</p>
-            <img src="image.php?comnt=testimonial_09_CZ.jpg" class="full"><p class="spellcheck"><?php echo $MINI_DISCLAMER;?></p>
+            <img src="image.php?comnt=testimonial_09_CZ.jpg" class="full"><p class="spellcheck"><?php echo $MINI_DISCLAMER; ?></p>
             <p><strong>Eričin inspirativní příběh o odstranění křečových žil!</strong></p>
             <img src="image.php?comnt=product_02.jpg" class="right"><h2>JAK MI ODSTRAŇOVÁNÍ KŘEČOVÝCH ŽIL ZMĚNILO ŽIVOT</h2>
             <p>Eričin život se vymykal kontrole. Její žíly byly vypouklé a bolestivé, cítila se v depresi, letargicky a měla velmi nízké sebevědomí. Poté ale konečně našla způsob - Vein Stopper! Pokud to mohla udělat Erika - můžeš i ty. Přečti si její udivující příběh, který ti stoprocentně pomůže dosáhnout krásnější, hladší a elastičtější kůži na nohou!</p>
@@ -309,7 +312,7 @@ $companyName = 'netsales';
             <img src="image.php?comnt=testimonial_10.jpg" class="best-buy-story"><div class="clear"></div>
             <p>„Dříve, než jsem vyzkoušela krém Vein Stopper, vyzkoušela jsem všechny krémy a preparáty, na které jsem narazila. Vedlejší účinky některých z nich mě ale moc nenadchly. Cvičení bylo v mém případě k ničemu. Pak mi kamarádka lékařka doporučila Vein Stopper krém, abych společně s ním dbala taky na stravu a občas chodila na procházky. Za pouhé dva měsíce mé žíly úplně zmizely a nikdy předtím jsem se necítila lépe! Mám dokonale hladké nohy a jsem se svým vzhledem spokojená, protože už je nemusím schovávat. Ještě pořád občas krém Vein Stopper používám, protože nechci, aby se mi křečové žíly vrátily. Doporučila bych tento krém všem těm, kteří mají problémy s křečovými žilami! Ze srdce děkuji za tento skvělý preparát!“*</p>
             <p>- Vlaďka Borská, Opava</p>
-            <p class="spellcheck"><?php echo $MINI_DISCLAMER;?></p>
+            <p class="spellcheck"><?php echo $MINI_DISCLAMER; ?></p>
          </div>
          <h1>Osvoboď v sobě dobrodruha!</h1>
          <img src="image.php?comnt=img_20.jpg" class="full"><h1 class="text-center green large"><span class="red">Nejextrémnější</span> preparát na odstraňování křečových žil!</h1> 
@@ -378,7 +381,7 @@ $companyName = 'netsales';
             <h4>„Konečně sebevědomá v bikinách!“</h4>
             <p>„Ahoj, jmenuju se Tereza Rychlíková. Je mi 30 let a žiju v Karlových Varech. Byla jsem dlouhou dobu v depresi, protože jsem se musela kvůli křečovým žilám a viditelným kapilárám vzdát kariéry modelky a soutěží krásy. Nenáviděla jsem své nohy. Byly skoro celé modré, když jsem začala používat Vein Stopper. Nečekala jsem žádné skvělé výsledky, protože nejde o první krém, který jsem vyzkoušela. Ale byl první, který mi přinesl výsledky. Cítím se skvěle, nestydím se svléknout do bikin a ukázat nohy. Doporučila bych tento krém každému, kdo má problém s křečovými žilami a kapilárami. Dejte mu šanci, nezklame vás - no, podívejte se na mě! :)“*</p>
             <p>S pozdravem<br>Tereza Rychlíková</p>
-            <p class="spellcheck"><?php echo $MINI_DISCLAMER;?></p>
+            <p class="spellcheck"><?php echo $MINI_DISCLAMER; ?></p>
          </div>
          <h2>PODÍVEJ SE NA TOTO:</h2>
          <img src="image.php?comnt=img_27.jpg" class="left"><h3>Zbav se křečových žil s Vein Stopperem</h3>
@@ -537,7 +540,7 @@ $companyName = 'netsales';
             <h5 class="blue">„Šťastná chodím v minisukních!“</h5>
             <p class="red"><strong>Zbavila jsem se křečových žil za 2 měsíce</strong></p>
                <img src="image.php?comnt=testimonial_31.jpg" class="full"><p>„Po rozvodu jsem pro sebe chtěla něco udělat. Dala jsem šanci tomuto krému a za 2 měsíce jsem vymazala žíly ze svých nohou. Teď mé nohy vypadají lépe než jak vypadaly, když jsem byla na střední škole a cítím se skvěle! Díky!“*</p>
-            <p class="spellcheck"><?php echo $MINI_DISCLAMER;?></p>
+            <p class="spellcheck"><?php echo $MINI_DISCLAMER; ?></p>
          </div>
          <img src="image.php?comnt=badge_31.png" class="badge"><div class="gray-box">
             <h5 class="green">100% bezpečná koupě</h5>
@@ -563,7 +566,7 @@ $companyName = 'netsales';
                <p class="red"><strong>Tereza vyhrála nad křečovými žilami</strong></p>
                <img src="image.php?comnt=testimonial_32.jpg" class="full"><p>„Rozhodla jsme se a uspěla! Vyhrála jsem nad křečovými žilami, se kterými jsem se dlouho trápila. Cítím se fyzicky mnohem lépe a jsem neporovnatelně více se sebou spokojená a v lepší náladě. Všichni na mně tuto změnu vidí, nejen fyzicky - jsem teď dokonce mnohem příjemnější osoba!“*</p>
                <p class="right"><strong>- Tereza</strong></p>
-               <p class="spellcheck"><?php echo $MINI_DISCLAMER;?></p>
+               <p class="spellcheck"><?php echo $MINI_DISCLAMER; ?></p>
                <hr>
 </div>
             <h5 class="text-center green">Miluju šaty,<br>nerada skrývám své nohy</h5>
@@ -593,7 +596,7 @@ $companyName = 'netsales';
             <p class="red"><strong>Mám nádherné nohy!</strong></p>
             <img src="image.php?comnt=testimonial_33.jpg" class="full"><p>„Odedávna jsem mívala problémy s kapilárami a žilami, ale nejvíce se to rozvinulo, když jsem začala chodit na střední školu. Tehdy pro mě začalo být stejně jako pro ostatní dívky důležité, abych byla krásná a líbila se klukům. Každý, kdo má problémy s modrou záplavou na nohou, ví, jak jsem se cítila, když jsem se závistí pozorovala všechny ty populární, krásné dívky s dokonalýma nohama, za kterými běhají všichni kluci. Začala jsem pomalu. Nejdříve jsem přestala sedět s překříženýma nohama, pak jsem začala cvičit a přidala jsem do své každodenní rutiny i Vein Stopper. Za pouhé 2 týdny jsem zpozorovala změnu, nejen na své náladě, ale také na svých nohách!! Byla jsem sebevědomější a stále více motivovaná do pokračování. A tady jsem (smích).“*</p>
             <p class="right"><strong>- Anežka Hladká</strong></p>
-            <p class="spellcheck"><?php echo $MINI_DISCLAMER;?></p>
+            <p class="spellcheck"><?php echo $MINI_DISCLAMER; ?></p>
          </div>
          <div class="half-box no">
             <img src="image.php?comnt=product_022.jpg">
@@ -608,7 +611,7 @@ $companyName = 'netsales';
             <p class="red"><strong>Opět mám dokonalé nohy</strong></p>
             <img src="image.php?comnt=testimonial_34.jpg" class="full"><p>„Ahoj, jmenuji se Aneta Brejšková, jsem z Čáslavi a je mi 33 let. Začala jsem se cítit nepříjemně po porodu mé dcery, když se mi na nohou objevily křečové žíly. Strávím hodně času v práci, kde musím stát, takže za pouhého půl roku byly mé žíly velmi vystouplé. Pak mi kamarádka doporučila Vein Stopper krém s doporučením, abych si došla za cévním chirurgem, který mi pomůže s dalšími pokyny. Upřímně jsem ji neposlechla v ničem, krom toho, že jsem začala používat krém Vein Stopper a začala nosit pohodlnou obuv s malým podpatkem. Vyhýbala jsem se jak jen to šlo sezení, stání a brzy jsem si všimla rozdílu! Teď jsem motivovaná vytrvat a dovést své nohy k dokonalosti! Děkuji vám!“*</p>
             <p class="right"><strong>Přeji vám jen to nejlepší,<br>Aneta Brejšková</strong></p>
-            <p class="spellcheck"><?php echo $MINI_DISCLAMER;?></p>
+            <p class="spellcheck"><?php echo $MINI_DISCLAMER; ?></p>
          </div>
          <div class="half-box">
             <h4 class="blue text-center">Udělej<br>pro sebe<br>tu nejlepší<br>věc<br>a ukaž<br>bez studu<br>své<br>dokonalé<br>nohy!</h4>
@@ -623,7 +626,7 @@ $companyName = 'netsales';
             <p class="red"><strong>Už nemám v nohách žádné bolesti</strong></p>
             <img src="image.php?comnt=testimonial_35.jpg" class="full"><p>„Vein Stopper mi pomohl cítit se lépe a aby mé nohy vypadaly mnohem lépe než dřív... Byl jsem u cévního chirurga a doporučil mi, abych společně s krémem také začal pomalu cvičit, a jsem mu za to hrozně vděčný!“*</p>
             <p class="right"><strong>- Mirek Novák</strong></p>
-            <p class="spellcheck"><?php echo $MINI_DISCLAMER;?></p>
+            <p class="spellcheck"><?php echo $MINI_DISCLAMER; ?></p>
          </div>
          <img src="image.php?comnt=img_38.jpg"><div class="gray-box geobox">
             <h6 class="small underline">Kateřina Malá</h6>
@@ -632,7 +635,7 @@ $companyName = 'netsales';
             <img src="image.php?comnt=testimonial_36.jpg" class="full"><p>„Toho dne, co jsem si oblékla krátké šaty, uviděla jsem, jak moc mám nateklé a modré žíly, a  začala jsem šílet. Ptala jsem se sama sebe, jak jsem mohla dovolit, aby se mi něco takového stalo. Když jsem se dostatečně vybrečela, rozhodla jsem se, že s tím něco musím udělat. Začala jsem vyhledávat na internetu, jak s křečovými žilami zamést co nejrychleji a nejsnáz. Rohodla jsem se začít každý večer cvičit a náhodně jsem na nějakém fóru narazila na Vein Stopper. Lidé byli výsledky nadšení. Našla jsem ho „online" a hned objednala, abych mohla vyzkoušet. Držela jsem se návodu a mazala každý den dvakrát. Když jsem si všimla výsledků, rozhodla jsem se i při mírné bolesti začít cvičit, abych motivovala krevní oběh, a výsledky se ještě zlepšily.</p>
             <p><span class="yellow_bg">Nejdřív jsem nemohla uvěřit vlastním očím, když jsem spatřila, že už nemám celé namodralé nohy od žil. Ještě větším překvapením pro mě bylo to, že bolest zmizela. Vřele doporučuji tento krém všem, kdo bojují s křečovými žilami a bolestmi nohou. Žádné vedlejší účinky nevyvolal a musím přiznat, že se snadno používá a velmi rychle funguje. Pokračuji v používání.</span>“ *</p>
             <p class="right"><strong>Díky<br>- Kateřina Malá</strong></p>
-            <p class="spellcheck"><?php echo $MINI_DISCLAMER;?></p>
+            <p class="spellcheck"><?php echo $MINI_DISCLAMER; ?></p>
          </div>
          <div class="gray-box">
             <img src="image.php?comnt=badge_33.png" class="badge"><p><strong>Nespokoj se s levnými imitacemi</strong></p>
